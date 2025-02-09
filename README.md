@@ -1,35 +1,24 @@
 # HttpRequest
 
 ## Class ini dirancang untuk:
-
-    Memudahkan manajemen API endpoint
-
-    Menyediakan interface yang konsisten untuk berbagai jenis request
-
-    Menangani kasus-kasus umum secara otomatis
-
-    Menyediakan error handling yang lebih informatif
-
-    Mendukung berbagai tipe data request dan response
+Memudahkan manajemen API endpoint
+Menyediakan interface yang konsisten untuk berbagai jenis request
+Menangani kasus-kasus umum secara otomatis
+Menyediakan error handling yang lebih informatif
+Mendukung berbagai tipe data request dan response
 
 
 ## Fitur utama yang termasuk dalam class ini:
-    Base URL: Memungkinkan konfigurasi URL dasar untuk semua request
+1. Base URL: Memungkinkan konfigurasi URL dasar untuk semua request
+2. Header Default: Header default yang bisa dikustomisasi
+3. Method HTTP: Mendukung GET, POST, PUT, DELETE
+4. Parameter Query: Otomatis menangani parameter query untuk GET
+5. Body Request: Otomatis memproses body untuk JSON dan form-urlencoded
+6. Error Handling: Menangani error response dengan parsing otomatis
+7. Response Parsing: Otomatis memparse response berdasarkan Content-Type
+8. Validasi URL: Menangani konstruksi URL dengan benar
 
-    Header Default: Header default yang bisa dikustomisasi
 
-    Method HTTP: Mendukung GET, POST, PUT, DELETE
-
-    Parameter Query: Otomatis menangani parameter query untuk GET
-
-    Body Request: Otomatis memproses body untuk JSON dan form-urlencoded
-
-    Error Handling: Menangani error response dengan parsing otomatis
-
-    Response Parsing: Otomatis memparse response berdasarkan Content-Type
-
-    Validasi URL: Menangani konstruksi URL dengan benar
-    
 
 # Cara penggunaan:
 
